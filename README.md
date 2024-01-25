@@ -1,6 +1,6 @@
 # Shohan Theme
 
-A theme for developers to code peacefully.
+Welcome to **Shohan Theme**, a carefully crafted theme to enhance your coding experience and bring peace to your development environment.
 
 ![Shohan Theme Icon](https://i.ibb.co/vZhHQ69/phenix.png)
 
@@ -8,22 +8,32 @@ A theme for developers to code peacefully.
 
 1. Install the "Shohan Theme" extension from the Visual Studio Code Marketplace.
 
-   - [Shohan Theme on Marketplace](https://marketplace.visualstudio.com/items/NahimHossainShohan.shohantheme)
+   - [Install Shohan Theme](https://marketplace.visualstudio.com/items/NahimHossainShohan.shohantheme)
 
-2. For an enhanced experience, it is recommended to install the "APC Customize UI++" extension:
+2. For an even better experience, consider installing the following extensions:
 
-   - [APC Customize UI++ on Marketplace](https://marketplace.visualstudio.com/items?itemName=your-apc-customize-ui-id)
+   - [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=your-apc-customize-ui-id)
+   - [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=your-vscode-animations-id)
 
    After installing "APC Customize UI++," follow these steps:
 
-   - Enable Animation Steps:
-     - Animations: Install Animationsapc
-     - Animations: Enable Animations
-     - Enable Apc extension
+   - **Enable Animation Steps**: Press `ctrl` + `shift` + `p` (Windows/Linux) or `command` + `shift` + `p` (macOS), then search for:
+
+     ```
+     Animations: Install Animationsapc
+     ```
+
+     ```
+     Animations: Enable Animations
+     ```
+
+     ```
+     Enable Apc extension
+     ```
 
 ## Repository
 
-- [GitHub Repository](https://github.com/NH-Shohan/ShohanTheme)
+Explore the code and contribute on [GitHub](https://github.com/NH-Shohan/ShohanTheme).
 
 ## Issues
 
@@ -31,11 +41,11 @@ If you encounter any issues or have suggestions, please [open an issue](https://
 
 ## Features
 
-- Dark theme for a comfortable coding experience.
+- **Dark Theme**: Immerse yourself in a comfortable and visually appealing coding environment.
 
 ### Font Family
 
-You can customize the font family used in the editor.
+Customize the font family used in the editor with ease.
 
 ```json
 "editor.fontFamily": "Cascadia Code, Operator Mono, Fira Code"
