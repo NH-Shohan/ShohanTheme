@@ -1,0 +1,43 @@
+{
+  "name": "shohantheme",
+  "displayName": "Shohan Theme",
+  "description": "A theme for developers to code peacefully",
+  "publisher": "NahimHossainShohan",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "https://i.ibb.co/vZhHQ69/phenix.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NH-Shohan/ShohanTheme"
+  },
+  "bugs": {
+    "url": "https://github.com/NH-Shohan/ShohanTheme/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "ShohanTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ShohanTheme-color-theme.json"
+      }
+    ],
+    "configuration": {
+      "editor.fontFamily": {
+        "type": "string",
+        "default": "Cascadia Code, Operator Mono, Fira Code",
+        "description": "The font family for the editor."
+      },
+      "editor.fontSize": {
+        "type": "number",
+        "default": 18,
+        "description": "The font size for the editor."
+      }
+    }
+  },
+  "license": "MIT"
+}
